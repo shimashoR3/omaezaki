@@ -1,0 +1,89 @@
+/* This is a CSS file */
+.btn-border-bottom {
+    width: 100px;
+height: 30px;
+left: 25px;
+top:50px;
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.25em 0;
+  text-decoration: none;
+  text-align: center;
+  color: #67c5ff;  
+  font-size: 20px
+}
+.btn-border-bottom:before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 4px;
+  top:100%;
+  left: 0;
+  border-radius: 3px;
+  background:#67c5ff;
+  transition: .2s;
+}
+
+.btn-border-bottom:hover:before {
+  top: -webkit-calc(100% - 3px);
+  top: calc(100% - 3px);
+}
+.warabi{
+    top:15px;
+     color:#67c5ff;  
+      font-weight: bold;
+font-size:20px;
+}
+.ajikoubou{
+    color: #0068a8;
+        font-weight: bold;
+     left:10px;
+     font-size:10px;
+}
+h1 {
+  padding: 0.25em 0.5em;/*上下 左右の余白*/
+  color: #000000;/*文字色*/
+  background: transparent;/*背景透明に*/
+  border-left: solid 5px #67c5ff;/*左線*/
+}
+
+.HP{
+font-size: 21px;
+}
+
+.btn-square-soft {
+    width: 110px;
+height: 50px;
+left: 25px;
+top:900px;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: #ffffff;
+ 
+  line-height: 50px;
+  border-radius: 5px;
+  text-align: center;
+  overflow: hidden;
+  font-weight: bold;
+  background: linear-gradient(#58b4ff 0%, #aaeaff 100%);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.66);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
+   font-size: 30px
+}
+.btn-square-soft:active {
+  /*押したとき*/
+  -webkit-transform: translateY(2px);
+  transform: translateY(2px);/*沈むように*/
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+  background-image: linear-gradient(#fed6e3 0%, #ffbcbc 100%);/*グラデーションを明るく*/
+}
+
+.mozi{
+ text-decoration: none;
+  color: #ffffff;
+   font-size: 50px;
+ font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.66);
+}
